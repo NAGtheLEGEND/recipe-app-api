@@ -20,7 +20,7 @@ services:
     depends_on:
       - db
   db:
-    image: postgres:13-alpine
+    image: postgres:13-alpine 
     volumes:
       - dev-db-data:/var/lib/postgresql/data
     environment:
