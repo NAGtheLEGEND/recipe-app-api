@@ -8,3 +8,4 @@ class CalcTests(SimpleTestCase):
     def test_sub_nums(self):
         res = calc.subs(19,10)
         self.assertEqual(res,9)
+    
